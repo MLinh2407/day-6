@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Lianvin';
+    src: url(./src/LiavinExtruderightDemo-1jZ6g.otf);
+}
+
+body {
+    background-color: darkblue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.card {
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 10px;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin: 10px auto;
+    width: 200px;
+}
+
+#avatar {
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid red
+}
+
+.name {
+    font-family: Lianvin;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+.role {
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button {
+    margin: 5px auto;
+    border-radius: 15px;
+    background-color: darkblue;
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.intro {
+    text-align: center;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: blue;
+}
